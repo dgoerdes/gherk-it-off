@@ -4,8 +4,8 @@
   "description": "Gherkin to JS test",
   "main": "index.js",
   "scripts": {
-    "parseToJson": "node ./lib/parse-to-json.js --src ./test/features/**/*.feature --out dist",
-    "parseToJest": "node ./lib/parse-to-jest.js --src ./test/features/**/*.feature --out dist",
+    "convertToJson": "node ./index.js --src ./test/features/**/*.feature --out dist --converter json",
+    "convertToJest": "node ./index.js --src ./test/features/**/*.feature --out dist --converter jest",
     "test": "mocha"
   },
   "author": "Daniel Goerdes <d.goerdes@emakina.at>",

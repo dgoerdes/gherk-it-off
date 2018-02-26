@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const expect = require('chai').expect;
-const { parser } = require('../index');
+const parser = require('../lib/parser');
 
 
 describe('Parse Gherkin', () => {
