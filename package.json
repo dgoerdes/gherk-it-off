@@ -10,12 +10,17 @@
   },
   "author": "Daniel Goerdes <d.goerdes@emakina.at>",
   "license": "MIT",
-  "devDependencies": {
-    "chai": "4.1.2",
-    "mocha": "5.0.1"
-  },
   "dependencies": {
     "globule": "1.2.0",
     "write": "1.0.3"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.18.1",
+    "eslint-config-emakinacee-base": "1.2.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "mocha": "5.0.1"
   }
 }

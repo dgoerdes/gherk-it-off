@@ -1,5 +1,10 @@
 {
     "extends": [
         "emakinacee-base"
-    ]
+    ],
+    "rules": {
+        "valid-jsdoc": "off",
+        "no-console": "off",
+        "import/no-nodejs-modules": "off"
+    }
 }
