@@ -4,13 +4,10 @@
 /node_modules
 
 # generated styles
-src/**/*.css
+dist/
 
 # testing
 /coverage
-
-# production
-/build
 
 # misc
 .DS_Store

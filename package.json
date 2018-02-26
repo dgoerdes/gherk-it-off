@@ -4,7 +4,8 @@
   "description": "Gherkin to JS test",
   "main": "index.js",
   "scripts": {
-    "parse": "node ./parse-example.js",
+    "parseToJson": "node ./lib/parse-to-json.js --src ./test/features/**/*.feature --out dist",
+    "parseToJest": "node ./lib/parse-to-jest.js --src ./test/features/**/*.feature --out dist",
     "test": "mocha"
   },
   "author": "Daniel Goerdes <d.goerdes@emakina.at>",
@@ -12,5 +13,9 @@
   "devDependencies": {
     "chai": "4.1.2",
     "mocha": "5.0.1"
+  },
+  "dependencies": {
+    "globule": "1.2.0",
+    "write": "1.0.3"
   }
 }
