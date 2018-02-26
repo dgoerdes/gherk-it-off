@@ -1,0 +1,16 @@
+{
+  "name": "gherk-it-off",
+  "version": "0.0.0",
+  "description": "Gherkin to JS test",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node ./parse-example.js",
+    "test": "mocha"
+  },
+  "author": "Daniel Goerdes <d.goerdes@emakina.at>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.1"
+  }
+}
