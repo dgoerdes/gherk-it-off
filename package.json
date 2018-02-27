@@ -2,7 +2,6 @@
   "name": "gherk-it-off",
   "version": "0.0.0",
   "description": "Gherkin to JS test",
-  "main": "index.js",
   "scripts": {
     "convertToJson": "node ./index.js --src ./test/features/**/*.feature --out dist --converter json",
     "convertToJest": "node ./index.js --src ./test/features/**/*.feature --out dist --converter jest",
@@ -10,6 +9,9 @@
   },
   "author": "Daniel Goerdes <d.goerdes@emakina.at>",
   "license": "MIT",
+  "bin": {
+    "gherk-it-off": "./index.js"
+  },
   "dependencies": {
     "globule": "1.2.0",
     "write": "1.0.3"

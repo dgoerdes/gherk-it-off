@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require('path');
 const jsonConverter = require('./lib/json-converter');
 const jestConverter = require('./lib/jest-converter');
