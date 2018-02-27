@@ -1,7 +1,7 @@
 {
   "name": "gherk-it-off",
-  "version": "0.0.0",
-  "description": "Gherkin to JS test",
+  "version": "0.0.1",
+  "description": "Convert gherkin features to jest tests or a json file.",
   "scripts": {
     "convertToJson": "node ./index.js --src ./test/features/**/*.feature --out dist --converter json",
     "convertToJest": "node ./index.js --src ./test/features/**/*.feature --out dist --converter jest",
@@ -9,6 +9,15 @@
   },
   "author": "Daniel Goerdes <d.goerdes@emakina.at>",
   "license": "MIT",
+  "keywords": [
+    "gherkin",
+    "jest",
+    "convert",
+    "parse",
+    "json",
+    "BDD",
+    "tests"
+  ],
   "bin": {
     "gherk-it-off": "./index.js"
   },
